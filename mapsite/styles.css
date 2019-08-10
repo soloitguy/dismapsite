@@ -9,15 +9,15 @@
 }
 
 .button1 img {
-    position: relative;
+    position: fixed;
     margin-top: 20%;
     margin-left: 50%;
     max-width: 25px;
     max-height: 25px;
 }
 .button2 img {
-    position: relative;
-    margin-top: 15%;
+    position: fixed;
+    margin-top: 12%;
     margin-left: 50%;
     max-width: 25px;
     max-height: 25px;

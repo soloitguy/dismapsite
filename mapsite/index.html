@@ -1,87 +1,118 @@
 <html>
-    <head>
-      <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <div id="map">
-            <img src="Dis.png" />
-            <div class="button1">
-                <button id="modal-btn"><img src="infobutton.png"/></button>
-            </div>
-            <div class="button2">
-                    <button id="modal-btn2"><img src="infobutton.png"/></button>
-            </div>
-            <div class="button3">
-                <button id="modal-btn3"><img src="infobutton.png"/></button>
-          </div>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="map">
+        <img src="Dis.png" />
+        <div class="button1">
+            <button id="modal-btn"><img src="infobutton.png"/></button>
         </div>
-    </body>
+        <div class="button2">
+            <button id="modal-btn2"><img src="infobutton.png"/></button>
+        </div>
+        <div class="button3">
+            <button id="modal-btn3"><img src="infobutton.png"/></button>
+        </div>
+        <div class="button4">
+            <button id="modal-btn4"><img src="infobutton.png"/></button>
+        </div>
+    </div>
+</body>
+
 </html>
 
 <div class="modal">
-  <div class="modal-content">
-    <span class="close-btn">&times;</span>
-    <p>The Citadel of Dis.</p>
-    <p>Here lies the God Machine.  Guarded by demons of gigantic stature and strength, this stalagmite is the home of the Erinyes sisters who protect the machine and rule Dis in the High Lord's absense.  Here Yessa and her sisters conspired to help Lucius thwart the Highl Lord's plans to merge the planes.</p>
-  </div>
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <p>The Citadel of Dis.</p>
+        <p>Here lies the God Machine. Guarded by demons of gigantic stature and strength, this stalagmite is the home of the Erinyes sisters who protect the machine and rule Dis in the High Lord's absense. Here Yessa and her sisters conspired to help Lucius
+            thwart the Highl Lord's plans to merge the planes.</p>
+    </div>
 </div>
 
 <div class="modal2">
-        <div class="modal-content2">
-          <span class="close-btn2">&times;</span>
-          <p>Tonga Donkin</p>
-          <p>Tonga makes metal things!</p>
-        </div>
-      </div>
+    <div class="modal-content2">
+        <span class="close-btn2">&times;</span>
+        <p>Tonga Donkin</p>
+        <p>Tonga makes metal things!</p>
+    </div>
+</div>
 
-      <div class="modal3">
-      <div class="modal-content3">
+<div class="modal3">
+    <div class="modal-content3">
         <span class="close-btn3">&times;</span>
         <p>Vek'tha</p>
-        <p>The Raven's Agent in Dis, wears a fur cloak similar to Vardoger's that modulates her voice to be unrecognizable.  Providing the party with information on destroying the God Machine, and then getting home.</p>
-      </div>
-    </div>      
+        <p>The Raven's Agent in Dis, wears a fur cloak similar to Vardoger's that modulates her voice to be unrecognizable. Providing the party with information on destroying the God Machine, and then getting home.</p>
+    </div>
+</div>
+
+<div class="modal4">
+    <div class="modal-content4">
+        <span class="close-btn4">&times;</span>
+        <p>Dis-topian Drafts</p>
+        <p>A multicultural tavern just North of the citadel. Patrons of all the races of Dis, including elementals in the service of the Highlord, come here to drink of the sanguine ales and tinctures. The bartender here, Juseth, is a loyal subject of the
+            Highlord and runs his own trade of human slaves to supply his customers with the freshest victuals. </p>
+    </div>
+</div>
+
 <script>
-let modalBtn = document.getElementById("modal-btn")
-let modal = document.querySelector(".modal")
-let closeBtn = document.querySelector(".close-btn")
-modalBtn.onclick = function(){
-  modal.style.display = "block"
-}
-closeBtn.onclick = function(){
-  modal.style.display = "none"
-}
-window.onclick = function(e){
-  if(e.target == modal){
-    modal.style.display = "none"
-  }
-}
-let modalBtn2 = document.getElementById("modal-btn2")
-let modal2 = document.querySelector(".modal2")
-let closeBtn2 = document.querySelector(".close-btn2")
-modalBtn2.onclick = function(){
-  modal2.style.display = "block"
-}
-closeBtn2.onclick = function(){
-  modal2.style.display = "none"
-}
-window.onclick = function(e){
-  if(e.target == modal2){
-    modal2.style.display = "none"
-  }
-}
-let modalBtn3 = document.getElementById("modal-btn3")
-let modal3 = document.querySelector(".modal3")
-let closeBtn3 = document.querySelector(".close-btn3")
-modalBtn3.onclick = function(){
-  modal3.style.display = "block"
-}
-closeBtn3.onclick = function(){
-  modal3.style.display = "none"
-}
-window.onclick = function(e){
-  if(e.target == modal3){
-    modal3.style.display = "none"
-  }
-}
+    let modalBtn = document.getElementById("modal-btn")
+    let modal = document.querySelector(".modal")
+    let closeBtn = document.querySelector(".close-btn")
+    modalBtn.onclick = function() {
+        modal.style.display = "block"
+    }
+    closeBtn.onclick = function() {
+        modal.style.display = "none"
+    }
+    window.onclick = function(e) {
+        if (e.target == modal) {
+            modal.style.display = "none"
+        }
+    }
+    let modalBtn2 = document.getElementById("modal-btn2")
+    let modal2 = document.querySelector(".modal2")
+    let closeBtn2 = document.querySelector(".close-btn2")
+    modalBtn2.onclick = function() {
+        modal2.style.display = "block"
+    }
+    closeBtn2.onclick = function() {
+        modal2.style.display = "none"
+    }
+    window.onclick = function(e) {
+        if (e.target == modal2) {
+            modal2.style.display = "none"
+        }
+    }
+    let modalBtn3 = document.getElementById("modal-btn3")
+    let modal3 = document.querySelector(".modal3")
+    let closeBtn3 = document.querySelector(".close-btn3")
+    modalBtn3.onclick = function() {
+        modal3.style.display = "block"
+    }
+    closeBtn3.onclick = function() {
+        modal3.style.display = "none"
+    }
+    window.onclick = function(e) {
+        if (e.target == modal3) {
+            modal3.style.display = "none"
+        }
+    }
+    let modalBtn4 = document.getElementById("modal-btn4")
+    let modal4 = document.querySelector(".modal4")
+    let closeBtn4 = document.querySelector(".close-btn4")
+    modalBtn4.onclick = function() {
+        modal4.style.display = "block"
+    }
+    closeBtn4.onclick = function() {
+        modal4.style.display = "none"
+    }
+    window.onclick = function(e) {
+        if (e.target == modal4) {
+            modal4.style.display = "none"
+        }
+    }
 </script>

@@ -11,6 +11,9 @@
             <div class="button2">
                     <button id="modal-btn2"><img src="infobutton.png"/></button>
             </div>
+            <div class="button3">
+                <button id="modal-btn3"><img src="infobutton.png"/></button>
+          </div>
         </div>
     </body>
 </html>
@@ -31,6 +34,13 @@
         </div>
       </div>
 
+      <div class="modal3">
+      <div class="modal-content3">
+        <span class="close-btn3">&times;</span>
+        <p>Vek'tha</p>
+        <p>The Raven's Agent in Dis, wears a fur cloak similar to Vardoger's that modulates her voice to be unrecognizable.  Providing the party with information on destroying the God Machine, and then getting home.</p>
+      </div>
+    </div>      
 <script>
 let modalBtn = document.getElementById("modal-btn")
 let modal = document.querySelector(".modal")
@@ -58,6 +68,20 @@ closeBtn2.onclick = function(){
 window.onclick = function(e){
   if(e.target == modal2){
     modal2.style.display = "none"
+  }
+}
+let modalBtn3 = document.getElementById("modal-btn3")
+let modal3 = document.querySelector(".modal3")
+let closeBtn3 = document.querySelector(".close-btn3")
+modalBtn3.onclick = function(){
+  modal3.style.display = "block"
+}
+closeBtn3.onclick = function(){
+  modal3.style.display = "none"
+}
+window.onclick = function(e){
+  if(e.target == modal3){
+    modal3.style.display = "none"
   }
 }
 </script>

@@ -19,6 +19,9 @@
         <div class="button4">
             <button id="modal-btn4"><img src="infobutton.png"/></button>
         </div>
+        <div class="button5">
+            <button id="modal-btn5"><img src="infobutton.png"/></button>
+        </div>
     </div>
 </body>
 
@@ -28,8 +31,8 @@
     <div class="modal-content">
         <span class="close-btn">&times;</span>
         <p>The Citadel of Dis.</p>
-        <p>Here lies the God Machine. Guarded by demons of gigantic stature and strength, this stalagmite is the home of the Erinyes sisters who protect the machine and rule Dis in the High Lord's absense. Here Yessa and her sisters conspired to help Lucius
-            thwart the Highl Lord's plans to merge the planes.</p>
+        <p>Here lies the God Machine. Guarded by demons of gigantic stature and strength, this stalagmite is the home of the Erinyes sisters who protect the machine and rule Dis in the Highlord's absense. Here Yessa and her sisters conspired to help Lucius
+            thwart the Highlord's plans to merge the planes.</p>
     </div>
 </div>
 
@@ -37,7 +40,8 @@
     <div class="modal-content2">
         <span class="close-btn2">&times;</span>
         <p>Tonga Donkin</p>
-        <p>Tonga makes metal things!</p>
+        <p>Tonga, the older brother of Yogg, runs a basic blacksmith near the citadel. Tonga will take any challenge to craft something of amazing quality, including a replacement for Vardoger's piecemeal armor or a bow for Aditi if she can provide the right
+            materials.</p>
     </div>
 </div>
 
@@ -55,6 +59,14 @@
         <p>Dis-topian Drafts</p>
         <p>A multicultural tavern just North of the citadel. Patrons of all the races of Dis, including elementals in the service of the Highlord, come here to drink of the sanguine ales and tinctures. The bartender here, Juseth, is a loyal subject of the
             Highlord and runs his own trade of human slaves to supply his customers with the freshest victuals. </p>
+    </div>
+</div>
+
+<div class="modal5">
+    <div class="modal-content5">
+        <span class="close-btn5">&times;</span>
+        <p>Thoss, Hellish Haberdashery</p>
+        <p>A quaint shop with a less quaint proprietor, selling wares of leather likely made from the skin of man. Thoss sold a map of Dis to the party at a discount, in exchange for a headnod to the Highlord in his name.</p>
     </div>
 </div>
 
@@ -113,6 +125,20 @@
     window.onclick = function(e) {
         if (e.target == modal4) {
             modal4.style.display = "none"
+        }
+    }
+    let modalBtn5 = document.getElementById("modal-btn5")
+    let modal5 = document.querySelector(".modal5")
+    let closeBtn5 = document.querySelector(".close-btn5")
+    modalBtn5.onclick = function() {
+        modal5.style.display = "block"
+    }
+    closeBtn5.onclick = function() {
+        modal5.style.display = "none"
+    }
+    window.onclick = function(e) {
+        if (e.target == modal5) {
+            modal5.style.display = "none"
         }
     }
 </script>

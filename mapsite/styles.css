@@ -26,7 +26,7 @@
 
 .button3 img {
     position: absolute;
-    margin-top: 3%;
+    margin-top: 5%;
     margin-left: 40%;
     width: 15px !important;
     height: 15px !important;
@@ -34,7 +34,7 @@
 
 .button4 img {
     position: absolute;
-    margin-top: 8%;
+    margin-top: 12%;
     margin-left: 42%;
     width: 15px !important;
     height: 15px !important;
@@ -42,8 +42,8 @@
 
 .button5 img {
     position: absolute;
-    margin-top: 1%;
-    margin-left: 47%;
+    margin-top: 2% !important;
+    margin-left: 45%;
     width: 15px !important;
     height: 15px !important;
 }

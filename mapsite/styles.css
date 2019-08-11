@@ -9,43 +9,43 @@
 }
 
 .button1 img {
-    position: fixed;
+    position: absolute;
     margin-top: 20%;
     margin-left: 47%;
-    max-width: 25px;
-    max-height: 25px;
+    max-width: 15px;
+    max-height: 15px;
 }
 
 .button2 img {
-    position: fixed;
+    position: absolute;
     margin-top: 10%;
     margin-left: 47%;
-    max-width: 25px;
-    max-height: 25px;
+    max-width: 15px;
+    max-height: 15px;
 }
 
 .button3 img {
-    position: fixed;
+    position: absolute;
     margin-top: 3%;
     margin-left: 40%;
-    max-width: 25px;
-    max-height: 25px;
+    max-width: 15px;
+    max-height: 15px;
 }
 
 .button4 img {
-    position: fixed;
+    position: absolute;
     margin-top: 8%;
     margin-left: 42%;
-    max-width: 25px;
-    max-height: 25px;
+    max-width: 15px;
+    max-height: 15px;
 }
 
 .button5 img {
-    position: fixed;
+    position: absolute;
     margin-top: 3%;
     margin-left: 47%;
-    max-width: 25px;
-    max-height: 25px;
+    max-width: 15px;
+    max-height: 15px;
 }
 
 .modal {
